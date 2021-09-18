@@ -3,16 +3,34 @@
     <meta charset="utf-8">
     <head>
         <title>内卷模拟器</title>
-        
+        <style>
+            .menu_button{
+                margin: 20px;
+                width: 7em;
+                height: 1.5em;
+                font-size: 3em;
+            }
+            .top_bar{
+                height: 10em;
+            }
+            .menu_title{
+                text-align: center;
+                margin-bottom: 2em;
+                margin-top: 2em;
+            }
+        </style>
     </head>
     <body style="background-color: aquamarine;">
-        <div>
-            <label style="font-size: 64px;font-family: 黑体;">人生苦短，我要重来</label>
+        <div class='top_bar'>
+
         </div>
-        <div>
-            <button style="font-size: 32px;font-family: 'Courier New', Courier, monospace;">/remake</button><br>
-            <button style="font-size: 32px;font-family: 'Courier New', Courier, monospace;">test1</button><br>
-            <button style="font-size: 32px;font-family: 'Courier New', Courier, monospace;">test2</button>
+        <div class='menu_title'>
+            <span style="font-size: 5em;font-family: 黑体;background-color: tomato;">人生苦短 必须重来</span>
+        </div>
+        <div style="text-align: center;">
+            <button class='menu_button'>/remake</button><br>
+            <button class='menu_button'>test1</button><br>
+            <button class='menu_button'>test2</button>
         </div>
     </body>
 </html>
